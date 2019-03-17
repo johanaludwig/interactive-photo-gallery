@@ -10,7 +10,9 @@ input.addEventListener("keyup", () => {
        
       if (description.toLowerCase().indexOf(value.toLowerCase()) != -1) { 
         entry[i].style.display = "block";
-      } else entry[i].style.display = "none";
+      } else {
+        entry[i].style.display = "none";
+      }
     }
 
 });
